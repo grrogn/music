@@ -1,0 +1,15 @@
+.profile_main {
+    flex-direction: column;
+}
+
+.profile_main > :nth-child(2) {
+    color: white;
+font-size: 36px;
+align-self: center;
+padding-top: -20px;
+}
+
+.profile_main > :nth-child(3) {
+   margin-top: -20px;
+padding-bottom: 83px;
+}

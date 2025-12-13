@@ -5,6 +5,44 @@ const pause_button = document.getElementById("pause");
 const play_button = document.getElementById("play");
 const player__list = document.getElementById("player__list");
 
+// const player__list_item_delete_svg = document.getElementById("player__list_item_delete_svg");
+// const player__list_item_add_svg = document.getElementById("player__list_item_add_svg");
+// const list_item_button = document.getElementById("list_item_button");
+// player__list_item_delete_svg.classList.add('hidden');
+// let isDeleteMode = false;
+// list_item_button?.addEventListener("click", () => {
+//     if (!isDeleteMode) {
+//         player__list_item_add_svg.classList.add('hidden');
+//         player__list_item_delete_svg.classList.remove('hidden');
+//         isDeleteMode = true;
+//     } else {
+//         player__list_item_add_svg.classList.remove('hidden');
+//         player__list_item_delete_svg.classList.add('hidden');
+//         isDeleteMode = false;
+//     }
+// });
+console.log(document.querySelectorAll('.player__list_item_add_button'));
+document.querySelectorAll('.player__list_item_add_button').forEach((button, index) => {
+    const addSvg = button.querySelector('.player__list_item_add_svg');
+    const deleteSvg = button.querySelector('.player__list_item_delete_svg');
+    console.log(addSvg);
+    console.log(deleteSvg);
+    let isDeleteMode = false;
+button?.addEventListener("click", () => {
+    if (!isDeleteMode) {
+        addSvg.classList.add('hidden');
+        deleteSvg.classList.remove('hidden');
+        isDeleteMode = true;
+    } else {
+        addSvg.classList.remove('hidden');
+        deleteSvg.classList.add('hidden');
+        isDeleteMode = false;
+    }
+});
+
+})
+
+
 
 
 

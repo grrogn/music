@@ -818,7 +818,7 @@ width: 100%;
 z-index: 2000;
 position: static;
 justify-content: start;
-
+min-height: 475px;
 }
 
 .player__content_right_main_player--mobile p {

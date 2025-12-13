@@ -80,8 +80,23 @@ display: none;
     .search_albums {padding-left: 0; padding-right: 0;}
 }
 
-@media (max-width: 630px){
+@media (max-width: 769px){
     .search__switcher {
-        transform: scale(0.7);
+        zoom: 0.9;
+        -moz-transform: scale(0.9)
     }
 }
+
+@media (max-width: 709px){
+    .search__switcher {
+        zoom: 0.8;
+        -moz-transform: scale(0.8)
+    }
+}
+
+/* @media (max-width: 630px){
+    .search__switcher {
+        zoom: 0.8;
+        
+    }
+} */

@@ -13,3 +13,33 @@ padding-top: -20px;
    margin-top: -20px;
 padding-bottom: 83px;
 }
+
+.profile__content--mobile {
+  display: block;
+  position: fixed;
+  top: 76px;
+  right: 50%;
+  transform: translate(50%, 0%);
+  transition: right 1s ease;
+  overflow-y: scroll;
+  height: 100%;
+  padding-bottom: 200px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    font-family: var(--base-shrift);
+}
+
+.profile__content--mobile.hidden {
+right: -100%;
+}
+
+.profile__content_container_photo--mobile {
+zoom: 0.6;
+margin-top: 100px;
+}
+
+.profile__content_list--mobile {
+height: 500px;
+zoom: 0.7;
+overflow-x: hidden;
+}

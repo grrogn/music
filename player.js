@@ -11,15 +11,18 @@ const player__list = document.getElementById("player__list");
 
 
 
-play_button.addEventListener("click", () => {
+play_button?.addEventListener("click", () => {
         play_button.classList.add('hidden');
         pause.classList.add('active');
+        
 });
 
-pause_button.addEventListener("click", () => {
+pause_button?.addEventListener("click", () => {
         play_button.classList.remove('hidden');
         pause.classList.remove('active');
+        
 });
+
 
 
 player__list_switcher_left_button?.addEventListener("click", () => {
@@ -31,9 +34,6 @@ player__list_switcher_right_button?.addEventListener("click", () => {
     player__list_switcher_element.classList.add('right'); 
     player__list_switcher_element.style.width = "47%";
 });
-
-
-
 
 
 

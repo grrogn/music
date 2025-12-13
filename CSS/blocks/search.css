@@ -1,0 +1,87 @@
+.search__switcher {
+ width: 560px;
+}
+.search__switcher_element {
+    width: 40%;
+}
+
+.search__switcher_element.right {
+  left:67%;
+  width: 31%;
+  /* right: 0; */
+  /* left: auto; */
+}
+
+.search__switcher_element.middle {
+  left:30%;
+  width: 37%;
+}
+
+
+.search__switcher_text {
+margin-left: auto;
+margin-right: auto;
+justify-content: space-around;
+padding-left: 20px;
+gap: 60px;
+}
+
+.search__switcher_text > :nth-child(2) {
+margin-left: 25px;
+}
+
+
+.search_albums {
+padding-left: 290px;
+padding-right: 290px;
+}
+
+.search_albums.hidden {
+display: none;
+}
+
+.search_albums__grid {
+gap: 165px;
+}
+
+.search_albums__album_image img{
+border-radius: 36px;
+}
+
+.search_albums__grid_info {
+    padding-top: 20px;
+}
+
+.search__switcher_element {
+width: 29%;
+}
+
+.search_authors.hidden {
+    display: none;
+}
+
+
+
+.search_authors__grid_info p:last-child{
+color: white;
+font-size: 32px;
+-webkit-text-stroke: 0;
+}
+
+#search_tracks__list {
+height: 570px;
+}
+
+.search_tracks.hidden {
+display: none;
+}
+
+@media (max-width: 1720px){
+    .search_albums {padding-left: 0; padding-right: 0;}
+}
+
+@media (max-width: 630px){
+    .search__switcher {
+        transform: scale(0.7);
+    }
+}

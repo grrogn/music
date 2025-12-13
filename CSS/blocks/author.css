@@ -62,7 +62,7 @@ z-index: 1;
 }
 .author_tracks__main_author_container_photo_img img{
     border-radius: 50px;
-    
+
 }
 
 .author_tracks__main_author_container_photo {
@@ -158,7 +158,8 @@ justify-content: center;
 }
 
 @media (max-width: 1070px){
-    .author_tracks__main {gap: 20px}
+    .author_tracks__main {gap: 20px;}
+    .profile_main {gap: 40px;}
 }
 
 @media (max-width: 990px){
@@ -175,7 +176,7 @@ justify-content: center;
 
 
 @media (max-width: 1720px){
-    .author_albums {    padding-left: 0; padding-right: 0;}
+    .author_albums {padding-left: 0; padding-right: 0;}
 }
 
 

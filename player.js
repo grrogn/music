@@ -5,8 +5,22 @@ const pause_button = document.getElementById("pause");
 const play_button = document.getElementById("play");
 const player__list = document.getElementById("player__list");
 const modal_player = document.querySelector(".modal_player");
+const modal_player__close_button = document.querySelector(".modal_player__close_button");
 const modal_player__content_top = document.querySelector(".modal_player__content_top");
 
+
+
+
+
+
+
+
+
+
+modal_player__close_button?.addEventListener("click", () => {
+modal_player.classList.add('hidden');
+// button.classList.add('active');
+});
 
 
 document.querySelectorAll('.player__list_item_author').forEach((button, index) => {

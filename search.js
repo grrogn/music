@@ -6,6 +6,30 @@ const search_tracks_content = document.getElementById("search_tracks_content");
 const search_albums_content = document.getElementById("search_albums_content");
 const search_authors_content = document.getElementById("search_authors_content");
 
+// searchInput.addEventListener('input', (e) => {
+//     console.log('Поиск:', e.target.value);  // При каждом изменении
+// });
+
+document.querySelectorAll('.header__search').forEach((search, index) => {
+search?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+        window.location.href = `searchPage.html`;
+    }
+});
+})
+
+
+
+
+
+
+
+
+
+
+
+
 search_switcher_left_button?.addEventListener("click", () => {
     search_switcher_element.classList.remove('right');
     search_switcher_element.classList.remove('middle');

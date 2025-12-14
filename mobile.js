@@ -11,6 +11,7 @@ const categories__content = document.getElementById("categories__content");
 const home__content = document.getElementById("home__content");
 const player__content = document.getElementById("player__content");
 const profile__content = document.getElementById("profile__content");
+const search__content = document.getElementById("search__content");
 
 categories__content.classList.add('hidden');
 player__content.classList.add('hidden');
@@ -57,6 +58,10 @@ navbar_categories_button.addEventListener("click", () => {
     home__content.classList.add('hidden');
     player__content.classList.add('hidden');
     profile__content.classList.add('hidden');
+    search__content.classList.add('hidden');
+    setTimeout(() => {
+    search__content.style.display = "none";
+}, 500);
     navbar_home_button.classList.remove('active');
     navbar_player_button.classList.remove('active');
     navbar_profile_button.classList.remove('active');
@@ -69,6 +74,10 @@ navbar_home_button.addEventListener("click", () => {
     player__content.classList.add('hidden');
     categories__content.classList.add('hidden');
     profile__content.classList.add('hidden');
+    search__content.classList.add('hidden');
+    setTimeout(() => {
+    search__content.style.display = "none";
+}, 500);
     home__content.classList.remove('hidden');
     navbar_player_button.classList.remove('active');
     navbar_categories_button.classList.remove('active');
@@ -81,6 +90,10 @@ navbar_player_button.addEventListener("click", () => {
     categories__content.classList.add('hidden');
     home__content.classList.add('hidden');
     profile__content.classList.add('hidden');
+    search__content.classList.add('hidden');
+    setTimeout(() => {
+    search__content.style.display = "none";
+}, 500);
     player__content.classList.remove('hidden');
     navbar_player_button.classList.add('active');
     navbar_profile_button.classList.remove('active');
@@ -93,6 +106,10 @@ navbar_profile_button.addEventListener("click", () => {
     categories__content.classList.add('hidden');
     home__content.classList.add('hidden');
     player__content.classList.add('hidden');
+    search__content.classList.add('hidden');
+setTimeout(() => {
+    search__content.style.display = "none";
+}, 500);
     profile__content.classList.remove('hidden');
     navbar_profile_button.classList.add('active');
     navbar_home_button.classList.remove('active');
@@ -101,4 +118,28 @@ navbar_profile_button.addEventListener("click", () => {
     currentWindow = 'profile__content';
 });
 
+                    
+       
+
+document.querySelectorAll('.header__search--mobile').forEach((search, index) => {
+search?.addEventListener('input', (e) => {
+//     if (e.key === 'Enter') {
+        // e.preventDefault();
+        categories__content.classList.add('hidden');
+        home__content.classList.add('hidden');
+        profile__content.classList.add('hidden');
+        player__content.classList.add('hidden');
+        navbar_profile_button.classList.remove('active');
+    navbar_home_button.classList.remove('active');
+    navbar_categories_button.classList.remove('active');
+    navbar_player_button.classList.remove('active');
+     search__content.style.display = "flex";
+                    setTimeout(() => {
+       
+    search__content.classList.remove('hidden');
+}, 500);
+        
+//     }
+});
+})
 

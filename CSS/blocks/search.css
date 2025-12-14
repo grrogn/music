@@ -100,3 +100,83 @@ display: none;
         
     }
 } */
+
+.search__content--mobile {
+    position: fixed;
+    top: 120px;
+    left: 20px;
+    zoom: 0.7;
+display: flex;
+flex-direction: column;
+opacity: 1;
+transition: .3s;
+font-family: var(--base-shrift);
+}
+
+.search__content--mobile h1{
+align-self: center;
+color: white;
+padding-bottom: 40px;
+}
+
+.search__content--mobile.hidden {
+opacity: 0;
+}
+
+.search__list--mobile {
+   margin-top: -35px;
+   overflow-x: hidden;
+}
+
+.search__list_item--mobile {
+font-size: 18px;
+}
+
+.search__list_item_left--mobile {
+    justify-content: left;
+gap: 10px;
+}
+
+
+.search_albums--mobile {
+    margin-top: -90px;
+    padding-top: 0;
+    overflow: hidden;
+transform: scale(0.8);
+overflow: hidden;
+overflow-y: scroll;
+height: 1500px;
+padding-bottom: 800px;
+}
+
+.search_albums--mobile::-webkit-scrollbar {
+  display: none;
+}
+.search_authors--mobile::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.search_authors--mobile {
+    margin-top: -90px;
+    padding-top: 0;
+    overflow: hidden;
+transform: scale(0.8);
+overflow: hidden;
+overflow-y: scroll;
+height: 1500px;
+padding-bottom: 800px;
+}
+
+.search_albums__grid--mobile{
+    gap: 20px;
+}
+
+.search_authors__grid--mobile{
+    gap: 20px;
+}
+
+.search_authors__grid_info--mobile p {
+font-size: 20px !important;
+ }

@@ -25,7 +25,7 @@ modal_player.classList.add('hidden');
 
 document.querySelectorAll('.player__list_item_author').forEach((button, index) => {
 button?.addEventListener("click", () => {
-modal_player.classList.remove('hidden');
+modal_player?.classList.remove('hidden');
 // button.classList.add('active');
 });
 })

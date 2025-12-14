@@ -322,7 +322,20 @@ text-align: left;
   height: 0;
 }
 
+.header__search--mobile::-webkit-search-decoration,
+.header__search--mobile::-webkit-search-cancel-button,
+.header__search--mobile::-webkit-search-results-button,
+.header__search--mobile::-webkit-search-results-decoration {
+  display: none;
+}
 
+/* Internet Explorer/Edge */
+.header__search--mobile::-ms-clear,
+.header__search--mobile::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
 
 
 

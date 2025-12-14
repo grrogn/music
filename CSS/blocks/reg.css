@@ -138,7 +138,9 @@ opacity: 0.7;
     opacity: 1;
 }
 
-
+.reg_window__frame_apply_button_gradient__mobile.active {
+    opacity: 1;
+}
 
 
 
@@ -218,4 +220,14 @@ opacity: 0.7;
 
 .reg_window_frame_input_checkbox_gradient.active {
     opacity: 1 !important;
+}
+
+#window_frame_apply_button__mobile {
+margin-top: 0;
+transform: scale(0.8);
+}
+
+#window_frame_apply_button__mobile2 {
+margin-top: 0;
+transform: scale(0.8);
 }

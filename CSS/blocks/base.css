@@ -162,7 +162,7 @@ a {
 
 
 @media (min-width: 500px) {
-.header--mobile, body .home__content--mobile, .navbar--mobile {display: none;}
+.header--mobile, body .home__content--mobile, .navbar--mobile, body .profile__content--mobile, body .categories__content--mobile,body .player__content--mobile .player__content_right_main_player--mobile {display: none;}
 }
 
 

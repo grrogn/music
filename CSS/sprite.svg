@@ -175,25 +175,15 @@
 
 
     <symbol id="player__plus_button_icon">
-        <foreignObject x="-17.4" y="-17.4" width="76.2004" height="75.0869">
-            <div xmlns="http://www.w3.org/1999/xhtml"
-                style="backdrop-filter:blur(8.7px);clip-path:url(#bgblur_0_479_324_clip_path);height:100%;width:100%">
-            </div>
-        </foreignObject>
-        <g data-figma-bg-blur-radius="17.4">
-            <ellipse cx="20.7002" cy="20.1435" rx="20.7002" ry="20.1435" fill="white" fill-opacity="0.29" />
-            <path
-                d="M20.7002 0.5C31.8694 0.5 40.9004 9.30753 40.9004 20.1436C40.9003 30.9795 31.8694 39.7871 20.7002 39.7871C9.53103 39.7871 0.500053 30.9795 0.5 20.1436C0.5 9.30754 9.53099 0.500016 20.7002 0.5Z"
-                stroke="white" stroke-opacity="0.5" />
-        </g>
-        <rect x="18.8521" y="9.75537" width="3" height="21" rx="1.5" fill="#9DA1A6" />
-        <rect x="9.85205" y="21.7554" width="3" height="21" rx="1.5" transform="rotate(-90 9.85205 21.7554)"
-            fill="#9DA1A6" />
-        <defs>
-            <clipPath id="bgblur_0_479_324_clip_path" transform="translate(17.4 17.4)">
-                <ellipse cx="20.7002" cy="20.1435" rx="20.7002" ry="20.1435" />
-            </clipPath>
-        </defs>
+<foreignObject x="-17.4" y="-17.4" width="75.8" height="75.8"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(8.7px);clip-path:url(#bgblur_0_479_324_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="17.4">
+<circle cx="20.5" cy="20.5" r="20.5" fill="white" fill-opacity="0.29"/>
+<circle cx="20.5" cy="20.5" r="20" stroke="white" stroke-opacity="0.5"/>
+</g>
+<rect x="18.6697" y="9.9281" width="2.97098" height="21.3717" rx="1.48549" fill="#9DA1A6"/>
+<rect x="9.75677" y="22.1404" width="3.0531" height="20.7969" rx="1.52655" transform="rotate(-90 9.75677 22.1404)" fill="#9DA1A6"/>
+<defs>
+<clipPath id="bgblur_0_479_324_clip_path" transform="translate(17.4 17.4)"><circle cx="20.5" cy="20.5" r="20.5"/>
+</clipPath></defs>
     </symbol>
 
 
@@ -322,6 +312,88 @@
 <clipPath id="bgblur_0_663_315_clip_path" transform="translate(25.8 25.8)"><circle cx="21" cy="21" r="21"/>
 </clipPath></defs>
 </symbol>
+
+<symbol id="player__list_item_delete2">
+<foreignObject x="-17.4" y="-17.4" width="75.8" height="75.8"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(8.7px);clip-path:url(#bgblur_0_664_324_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="17.4">
+<circle cx="20.5" cy="20.5" r="20.5" fill="white" fill-opacity="0.29"/>
+<circle cx="20.5" cy="20.5" r="20" stroke="white" stroke-opacity="0.5"/>
+</g>
+<rect x="30.5129" y="13" width="3" height="19.0427" rx="1.5" transform="rotate(45 30.5129 13)" fill="#9DA1A6"/>
+<rect x="10" y="19.4551" width="3" height="12.8959" rx="1.5" transform="rotate(-45 10 19.4551)" fill="#9DA1A6"/>
+<defs>
+<clipPath id="bgblur_0_664_324_clip_path" transform="translate(17.4 17.4)"><circle cx="20.5" cy="20.5" r="20.5"/>
+</clipPath></defs>
+</symbol>
+
+<symbol id="modal_player__content_bottom_right_previous_button">
+<foreignObject x="-13.8" y="-13.8" width="61.6" height="59.6"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(6.9px);clip-path:url(#bgblur_0_665_325_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="13.8">
+<ellipse cx="17" cy="16" rx="17" ry="16" fill="white" fill-opacity="0.25"/>
+<path d="M17 0.5C26.1417 0.5 33.5 7.46771 33.5 16C33.5 24.5323 26.1417 31.5 17 31.5C7.85831 31.5 0.5 24.5323 0.5 16C0.5 7.46771 7.85831 0.5 17 0.5Z" stroke="white" stroke-opacity="0.49"/>
+</g>
+<foreignObject x="-10.8042" y="-10.8789" width="44.4683" height="53.959"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(10.5px);clip-path:url(#bgblur_1_665_325_clip_path);height:100%;width:100%"></div></foreignObject><rect data-figma-bg-blur-radius="21" width="2.46325" height="11.9588" rx="1" transform="matrix(-1 0.000473107 -0.000501816 -1 12.6646 22.0793)" fill="white" fill-opacity="0.45"/>
+<foreignObject x="-7.48022" y="-10.2251" width="51.92" height="52.6414"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(10.5px);clip-path:url(#bgblur_2_665_325_clip_path);height:100%;width:100%"></div></foreignObject><path data-figma-bg-blur-radius="21" d="M14.5427 17.8434C13.1796 17.0802 13.1787 15.1188 14.541 14.3543L20.4576 11.0337C21.7904 10.2857 23.4357 11.2485 23.4365 12.7769L23.4398 19.4124C23.4406 20.9408 21.7962 21.9051 20.4627 21.1584L14.5427 17.8434Z" fill="white" fill-opacity="0.45"/>
+<defs>
+<clipPath id="bgblur_0_665_325_clip_path" transform="translate(13.8 13.8)"><ellipse cx="17" cy="16" rx="17" ry="16"/>
+</clipPath><clipPath id="bgblur_1_665_325_clip_path" transform="translate(10.8042 10.8789)"><rect width="2.46325" height="11.9588" rx="1" transform="matrix(-1 0.000473107 -0.000501816 -1 12.6646 22.0793)"/>
+</clipPath><clipPath id="bgblur_2_665_325_clip_path" transform="translate(7.48022 10.2251)"><path d="M14.5427 17.8434C13.1796 17.0802 13.1787 15.1188 14.541 14.3543L20.4576 11.0337C21.7904 10.2857 23.4357 11.2485 23.4365 12.7769L23.4398 19.4124C23.4406 20.9408 21.7962 21.9051 20.4627 21.1584L14.5427 17.8434Z"/>
+</clipPath></defs>
+</symbol>
+
+<symbol id="modal_player__content_bottom_right_play_button">
+<foreignObject x="-13.8" y="-13.8" width="71.6" height="69.6"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(6.9px);clip-path:url(#bgblur_0_665_330_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="13.8">
+<rect width="44" height="42" rx="21" fill="white" fill-opacity="0.22"/>
+<rect x="0.5" y="0.5" width="43" height="41" rx="20.5" stroke="white" stroke-opacity="0.56"/>
+</g>
+<foreignObject x="-16.3" y="-19.2763" width="79.5967" height="80.5526"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(14.4px);clip-path:url(#bgblur_1_665_330_clip_path);height:100%;width:100%"></div></foreignObject><path data-figma-bg-blur-radius="28.8" d="M31.3759 15.736C35.5369 18.0119 35.5369 23.9881 31.3759 26.264L21.3792 31.7318C17.3808 33.9188 12.5 31.0252 12.5 26.4678V15.5322C12.5 10.9747 17.3808 8.08117 21.3792 10.2682L31.3759 15.736Z" fill="white" fill-opacity="0.35"/>
+<defs>
+<clipPath id="bgblur_0_665_330_clip_path" transform="translate(13.8 13.8)"><rect width="44" height="42" rx="21"/>
+</clipPath><clipPath id="bgblur_1_665_330_clip_path" transform="translate(16.3 19.2763)"><path d="M31.3759 15.736C35.5369 18.0119 35.5369 23.9881 31.3759 26.264L21.3792 31.7318C17.3808 33.9188 12.5 31.0252 12.5 26.4678V15.5322C12.5 10.9747 17.3808 8.08117 21.3792 10.2682L31.3759 15.736Z"/>
+</clipPath></defs>
+</symbol>
+
+<symbol id="modal_player__content_bottom_right_pause_button">
+<foreignObject x="-13.8" y="-13.8" width="71.6" height="69.6"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(6.9px);clip-path:url(#bgblur_0_673_328_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="13.8">
+<rect width="44" height="42" rx="21" fill="white" fill-opacity="0.22"/>
+<rect x="0.5" y="0.5" width="43" height="41" rx="20.5" stroke="white" stroke-opacity="0.56"/>
+</g>
+<foreignObject x="-4.8" y="-18.8" width="64.6" height="79.6"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(14.4px);clip-path:url(#bgblur_1_673_328_clip_path);height:100%;width:100%"></div></foreignObject><rect data-figma-bg-blur-radius="28.8" x="24" y="10" width="7" height="22" rx="3.5" fill="white" fill-opacity="0.35"/>
+<foreignObject x="-15.8" y="-18.8" width="64.6" height="79.6"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(14.4px);clip-path:url(#bgblur_2_673_328_clip_path);height:100%;width:100%"></div></foreignObject><rect data-figma-bg-blur-radius="28.8" x="13" y="10" width="7" height="22" rx="3.5" fill="white" fill-opacity="0.35"/>
+<defs>
+<clipPath id="bgblur_0_673_328_clip_path" transform="translate(13.8 13.8)"><rect width="44" height="42" rx="21"/>
+</clipPath><clipPath id="bgblur_1_673_328_clip_path" transform="translate(4.8 18.8)"><rect x="24" y="10" width="7" height="22" rx="3.5"/>
+</clipPath><clipPath id="bgblur_2_673_328_clip_path" transform="translate(15.8 18.8)"><rect x="13" y="10" width="7" height="22" rx="3.5"/>
+</clipPath></defs>
+</symbol>
+
+<symbol id="modal_player__content_bottom_right_next_button">
+<foreignObject x="-15" y="-15" width="63" height="62"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(7.5px);clip-path:url(#bgblur_0_665_334_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="15">
+<ellipse cx="16.5" cy="16" rx="16.5" ry="16" fill="white" fill-opacity="0.25"/>
+<path d="M16.5 0.5C25.3512 0.5 32.5 7.45398 32.5 16C32.5 24.546 25.3512 31.5 16.5 31.5C7.64883 31.5 0.5 24.546 0.5 16C0.5 7.45398 7.64883 0.5 16.5 0.5Z" stroke="white" stroke-opacity="0.53"/>
+</g>
+<foreignObject x="0.6" y="-10.4" width="42.8" height="52.8"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(10.2px);clip-path:url(#bgblur_1_665_334_clip_path);height:100%;width:100%"></div></foreignObject><rect data-figma-bg-blur-radius="20.4" x="21" y="10" width="2" height="12" rx="1" fill="white" fill-opacity="0.43"/>
+<foreignObject x="-10.4" y="-9.86704" width="50.8" height="51.7341"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(10.2px);clip-path:url(#bgblur_2_665_334_clip_path);height:100%;width:100%"></div></foreignObject><path data-figma-bg-blur-radius="20.4" d="M19 14.268C20.3333 15.0378 20.3333 16.9623 19 17.7321L13 21.1962C11.6667 21.966 10 21.0037 10 19.4641V12.5359C10 10.9963 11.6667 10.034 13 10.8038L19 14.268Z" fill="white" fill-opacity="0.43"/>
+<defs>
+<clipPath id="bgblur_0_665_334_clip_path" transform="translate(15 15)"><ellipse cx="16.5" cy="16" rx="16.5" ry="16"/>
+</clipPath><clipPath id="bgblur_1_665_334_clip_path" transform="translate(-0.6 10.4)"><rect x="21" y="10" width="2" height="12" rx="1"/>
+</clipPath><clipPath id="bgblur_2_665_334_clip_path" transform="translate(10.4 9.86704)"><path d="M19 14.268C20.3333 15.0378 20.3333 16.9623 19 17.7321L13 21.1962C11.6667 21.966 10 21.0037 10 19.4641V12.5359C10 10.9963 11.6667 10.034 13 10.8038L19 14.268Z"/>
+</clipPath></defs>
+</symbol>
+
+<symbol id="modal_player__content_bottom_right_add_button">
+<path d="M14.5 0.5C22.2487 0.5 28.5 6.56055 28.5 14C28.5 21.4395 22.2487 27.5 14.5 27.5C6.75133 27.5 0.5 21.4395 0.5 14C0.5 6.56055 6.75133 0.5 14.5 0.5Z" fill="#7D7D7E" stroke="#C2C2C3"/>
+<rect x="13" y="8" width="3" height="13" rx="1.5" fill="#B5B5B5"/>
+<rect x="8" y="16" width="3" height="13" rx="1.5" transform="rotate(-90 8 16)" fill="#B5B5B5"/>
+</symbol>
+
+
+
+<symbol id="modal_player__content_bottom_right_delete_button">
+<path d="M14.5 0.5C22.2487 0.5 28.5 6.56055 28.5 14C28.5 21.4395 22.2487 27.5 14.5 27.5C6.75133 27.5 0.5 21.4395 0.5 14C0.5 6.56055 6.75133 0.5 14.5 0.5Z" fill="#7D7D7E" stroke="#C2C2C3"/>
+<path d="M21.3358 9.06068C21.9216 9.64646 21.9216 10.5962 21.3358 11.182L13.9268 18.591C13.341 19.1768 12.3913 19.1768 11.8055 18.591V18.591C11.2197 18.0053 11.2197 17.0555 11.8055 16.4697L19.2145 9.06068C19.8003 8.47489 20.75 8.47489 21.3358 9.06068V9.06068Z" fill="#B5B5B5"/>
+<path d="M8.06068 13.0433C8.64646 12.4575 9.59621 12.4575 10.182 13.0433L13.6861 16.5474C14.2719 17.1332 14.2719 18.0829 13.6861 18.6687V18.6687C13.1003 19.2545 12.1505 19.2545 11.5647 18.6687L8.06068 15.1646C7.47489 14.5789 7.47489 13.6291 8.06068 13.0433V13.0433Z" fill="#B5B5B5"/>
+</symbol>
+
+
 
 
 

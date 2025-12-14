@@ -20,11 +20,93 @@
                     </a>
                 </div>
                 
-                <div id="modal_window" class="modal__window">
-                    <div id="modal_svg" class="modal_svg"><svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22.6066 21.3934C22.2161 21.0029 21.5829 21.0029 21.1924 21.3934C20.8019 21.7839 20.8019 22.4171 21.1924 22.8076L22.6066 21.3934ZM40.9914 42.6066C41.3819 42.9971 42.0151 42.9971 42.4056 42.6066C42.7961 42.2161 42.7961 41.5829 42.4056 41.1924L40.9914 42.6066ZM21.1924 41.1924C20.8019 41.5829 20.8019 42.2161 21.1924 42.6066C21.5829 42.9971 22.2161 42.9971 22.6066 42.6066L21.1924 41.1924ZM42.4056 22.8076C42.7961 22.4171 42.7961 21.7839 42.4056 21.3934C42.0151 21.0029 41.3819 21.0029 40.9914 21.3934L42.4056 22.8076ZM21.1924 22.8076L40.9914 42.6066L42.4056 41.1924L22.6066 21.3934L21.1924 22.8076ZM22.6066 42.6066L42.4056 22.8076L40.9914 21.3934L21.1924 41.1924L22.6066 42.6066Z" fill="black"/>
-                        </svg></div>
-                    <img src="static/pngtree-music-logo-png-image_6389182 1.png" alt="logo">
+
+
+
+
+
+                <div id="modal_player" class="modal_player wrapped hidden">
+                <div class="modal_player__content">
+                <div class="modal_player__content_top wrapped">
+                <div class="modal_player__content_top_sound">
+                    <div class="player__sound_icon">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                <use href="/CSS/sprite.svg#player__sound_icon"></use>
+                            </svg>
+                        </div>
+                        <div class="player__volume_range">
+                            <input id="player__volume_range_line" class="player__music_progress_bar_line" type="range" min=0 max=100 value=""></input>
+                            <div class="player__music_progress_bar_style"></div>
+                        </div>
+                </div>
+                <p>Название альбома</p>
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.75 0C6.1683 0 0 6.1683 0 13.75C0 21.3317 6.1683 27.5 13.75 27.5C21.3317 27.5 27.5 21.3317 27.5 13.75C27.5 6.1683 21.3317 0 13.75 0ZM13.75 2.0625C20.217 2.0625 25.4375 7.28296 25.4375 13.75C25.4375 20.217 20.217 25.4375 13.75 25.4375C7.28295 25.4375 2.0625 20.217 2.0625 13.75C2.0625 7.28296 7.28295 2.0625 13.75 2.0625ZM18.2094 8.23523C17.937 8.24166 17.6783 8.35558 17.4896 8.55212L13.75 12.2917L10.0104 8.55212C9.91425 8.45313 9.79924 8.37444 9.67215 8.3207C9.54507 8.26696 9.40849 8.23926 9.27051 8.23926C9.06527 8.23931 8.86472 8.30059 8.69451 8.41526C8.5243 8.52993 8.39217 8.69277 8.31503 8.88296C8.23789 9.07314 8.21925 9.28202 8.26148 9.48286C8.30372 9.6837 8.40491 9.86737 8.55212 10.0104L12.2917 13.75L8.55212 17.4896C8.45315 17.5847 8.37414 17.6985 8.31971 17.8244C8.26527 17.9504 8.23652 18.0859 8.23512 18.2231C8.23373 18.3603 8.25972 18.4964 8.31158 18.6234C8.36344 18.7504 8.44013 18.8658 8.53715 18.9629C8.63416 19.0599 8.74957 19.1366 8.87659 19.1884C9.00362 19.2403 9.13971 19.2663 9.27691 19.2649C9.41411 19.2635 9.54964 19.2347 9.67559 19.1803C9.80153 19.1259 9.91535 19.0468 10.0104 18.9479L13.75 15.2083L17.4896 18.9479C17.5847 19.0468 17.6985 19.1259 17.8244 19.1803C17.9504 19.2347 18.0859 19.2635 18.2231 19.2649C18.3603 19.2663 18.4964 19.2403 18.6234 19.1884C18.7504 19.1366 18.8658 19.0599 18.9629 18.9629C19.0599 18.8658 19.1366 18.7504 19.1884 18.6234C19.2403 18.4964 19.2663 18.3603 19.2649 18.2231C19.2635 18.0859 19.2347 17.9504 19.1803 17.8244C19.1259 17.6985 19.0468 17.5847 18.9479 17.4896L15.2083 13.75L18.9479 10.0104C19.0978 9.86644 19.2008 9.68055 19.2433 9.47708C19.2858 9.27361 19.2658 9.06205 19.1859 8.87013C19.1061 8.67822 18.9701 8.51491 18.7959 8.40161C18.6216 8.28831 18.4172 8.23032 18.2094 8.23523Z" fill="#A7A7A8"/>
+                </svg>
+                </div>
+                <div class="modal_player__content_bottom">
+                    <div class="modal_player__content_bottom_left">
+                        <div class="modal_player__content_bottom_left_image">
+                            <img src="static/card.png" alt="musicPic">
+                        </div>
+                        <div class="modal_player__content_bottom_left_info">
+                            <p>Weightless</p>
+                            <p>Marconi Union</p>
+                        </div>
+                    </div>
+                    <div class="modal_player__content_bottom_right">
+                    <p>0:25</p>
+                    <button class="modal_player__content_bottom_right_previous_button">
+                        <svg width="34" height="32" viewBox="0 0 34 32" fill="none">
+                            <use class="modal_player__content_bottom_right_previous_svg" href="/CSS/sprite.svg#modal_player__content_bottom_right_previous_button"></use>
+                        </svg>
+                    </button>
+
+
+
+<button class="modal_player__content_bottom_right_play_button">
+    <svg width="44" height="42" viewBox="0 0 44 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <use class="modal_player__content_bottom_right_play_svg" href="/CSS/sprite.svg#modal_player__content_bottom_right_play_button"></use>
+        <use class="modal_player__content_bottom_right_pause_svg hidden" href="/CSS/sprite.svg#modal_player__content_bottom_right_pause_button"></use>
+    </svg>
+</button>
+
+
+
+
+<button class="modal_player__content_bottom_right_next_button">
+    <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <use class="modal_player__content_bottom_right_next_svg" href="/CSS/sprite.svg#modal_player__content_bottom_right_next_button"></use>
+    </svg>
+</button>
+
+<button class="modal_player__content_bottom_right_add_button">
+    <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <use class="modal_player__content_bottom_right_add_svg" href="/CSS/sprite.svg#modal_player__content_bottom_right_add_button"></use>
+        <use class="modal_player__content_bottom_right_delete_svg hidden" href="/CSS/sprite.svg#modal_player__content_bottom_right_delete_button"></use>
+    </svg>
+</button>
+
+
+                    </div>
+                </div>
+
+
+                    
+                
+
+
+
+                </div>
+  <div class="modal_player__content_range">  
+    <input type="range"/>
+  </div>
+
+
+
+
+
+
                 </div>
 
 
@@ -84,7 +166,7 @@
 
 <section id="search_tracks_content" class="container author_albums search_tracks">
     <div id="search_tracks__list" class="player__list">
-        <div id="player__list_item_author" class="player__list_item">
+        <div id="player__list_item_author" class="player__list_item player__list_item_author">
             <div class="player__list_item_left player__list_item_left_author">
                 <div class="player__list_item_image">
                     <img src="/static/trackPic.png" alt="playingPic"></img>
@@ -96,14 +178,15 @@
             </div>
             <div class="player__list_item_right player__list_item_right_author">
                 <p>1:30</p>
-                <button class="player__list_item_add_button">
-                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
-                        <use href="/CSS/sprite.svg#player__list_item_add"></use>
-                    </svg>
-                </button>
+                                <button class="player__list_item_add_button profile__list_item_add_button--mobile">
+                                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
+                                        <use class="player__list_item_delete_svg hidden" href="/CSS/sprite.svg#player__list_item_delete"></use>
+                                        <use class="player__list_item_add_svg" href="/CSS/sprite.svg#player__list_item_add"></use>
+                                    </svg>
+                                </button>
             </div>
         </div>
-        <div id="player__list_item_author" class="player__list_item">
+        <div id="player__list_item_author" class="player__list_item player__list_item_author">
             <div class="player__list_item_left player__list_item_left_author">
                 <div class="player__list_item_image">
                     <img src="/static/trackPic.png" alt="playingPic"></img>
@@ -115,14 +198,15 @@
             </div>
             <div class="player__list_item_right player__list_item_right_author">
                 <p>1:30</p>
-                <button class="player__list_item_add_button">
-                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
-                        <use href="/CSS/sprite.svg#player__list_item_add"></use>
-                    </svg>
-                </button>
+                                <button class="player__list_item_add_button profile__list_item_add_button--mobile">
+                                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
+                                        <use class="player__list_item_delete_svg hidden" href="/CSS/sprite.svg#player__list_item_delete"></use>
+                                        <use class="player__list_item_add_svg" href="/CSS/sprite.svg#player__list_item_add"></use>
+                                    </svg>
+                                </button>
             </div>
         </div>
-        <div id="player__list_item_author" class="player__list_item">
+        <div id="player__list_item_author" class="player__list_item player__list_item_author">
             <div class="player__list_item_left player__list_item_left_author">
                 <div class="player__list_item_image">
                     <img src="/static/trackPic.png" alt="playingPic"></img>
@@ -134,14 +218,15 @@
             </div>
             <div class="player__list_item_right player__list_item_right_author">
                 <p>1:30</p>
-                <button class="player__list_item_add_button">
-                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
-                        <use href="/CSS/sprite.svg#player__list_item_add"></use>
-                    </svg>
-                </button>
+                                <button class="player__list_item_add_button profile__list_item_add_button--mobile">
+                                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
+                                        <use class="player__list_item_delete_svg hidden" href="/CSS/sprite.svg#player__list_item_delete"></use>
+                                        <use class="player__list_item_add_svg" href="/CSS/sprite.svg#player__list_item_add"></use>
+                                    </svg>
+                                </button>
             </div>
         </div>
-                                <div id="player__list_item_author" class="player__list_item">
+                                <div id="player__list_item_author" class="player__list_item player__list_item_author">
             <div class="player__list_item_left player__list_item_left_author">
                 <div class="player__list_item_image">
                     <img src="/static/trackPic.png" alt="playingPic"></img>
@@ -153,14 +238,15 @@
             </div>
             <div class="player__list_item_right player__list_item_right_author">
                 <p>1:30</p>
-                <button class="player__list_item_add_button">
-                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
-                        <use href="/CSS/sprite.svg#player__list_item_add"></use>
-                    </svg>
-                </button>
+                                <button class="player__list_item_add_button profile__list_item_add_button--mobile">
+                                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
+                                        <use class="player__list_item_delete_svg hidden" href="/CSS/sprite.svg#player__list_item_delete"></use>
+                                        <use class="player__list_item_add_svg" href="/CSS/sprite.svg#player__list_item_add"></use>
+                                    </svg>
+                                </button>
             </div>
         </div>
-                                <div id="player__list_item_author" class="player__list_item">
+                                <div id="player__list_item_author" class="player__list_item player__list_item_author">
             <div class="player__list_item_left player__list_item_left_author">
                 <div class="player__list_item_image">
                     <img src="/static/trackPic.png" alt="playingPic"></img>
@@ -172,14 +258,15 @@
             </div>
             <div class="player__list_item_right player__list_item_right_author">
                 <p>1:30</p>
-                <button class="player__list_item_add_button">
-                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
-                        <use href="/CSS/sprite.svg#player__list_item_add"></use>
-                    </svg>
-                </button>
+                                <button class="player__list_item_add_button profile__list_item_add_button--mobile">
+                                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
+                                        <use class="player__list_item_delete_svg hidden" href="/CSS/sprite.svg#player__list_item_delete"></use>
+                                        <use class="player__list_item_add_svg" href="/CSS/sprite.svg#player__list_item_add"></use>
+                                    </svg>
+                                </button>
             </div>
         </div>
-        <div id="player__list_item_author" class="player__list_item">
+        <div id="player__list_item_author" class="player__list_item player__list_item_author">
             <div class="player__list_item_left player__list_item_left_author">
                 <div class="player__list_item_image">
                     <img src="/static/trackPic.png" alt="playingPic"></img>
@@ -191,14 +278,15 @@
             </div>
             <div class="player__list_item_right player__list_item_right_author">
                 <p>1:30</p>
-                <button class="player__list_item_add_button">
-                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
-                        <use href="/CSS/sprite.svg#player__list_item_add"></use>
-                    </svg>
-                </button>
+                                <button class="player__list_item_add_button profile__list_item_add_button--mobile">
+                                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
+                                        <use class="player__list_item_delete_svg hidden" href="/CSS/sprite.svg#player__list_item_delete"></use>
+                                        <use class="player__list_item_add_svg" href="/CSS/sprite.svg#player__list_item_add"></use>
+                                    </svg>
+                                </button>
             </div>
         </div>
-        <div id="player__list_item_author" class="player__list_item">
+        <div id="player__list_item_author" class="player__list_item player__list_item_author">
             <div class="player__list_item_left player__list_item_left_author">
                 <div class="player__list_item_image">
                     <img src="/static/trackPic.png" alt="playingPic"></img>
@@ -210,14 +298,15 @@
             </div>
             <div class="player__list_item_right player__list_item_right_author">
                 <p>1:30</p>
-                <button class="player__list_item_add_button">
-                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
-                        <use href="/CSS/sprite.svg#player__list_item_add"></use>
-                    </svg>
-                </button>
+                                <button class="player__list_item_add_button profile__list_item_add_button--mobile">
+                                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
+                                        <use class="player__list_item_delete_svg hidden" href="/CSS/sprite.svg#player__list_item_delete"></use>
+                                        <use class="player__list_item_add_svg" href="/CSS/sprite.svg#player__list_item_add"></use>
+                                    </svg>
+                                </button>
             </div>
         </div>
-        <div id="player__list_item_author" class="player__list_item">
+        <div id="player__list_item_author" class="player__list_item player__list_item_author">
             <div class="player__list_item_left player__list_item_left_author">
                 <div class="player__list_item_image">
                     <img src="/static/trackPic.png" alt="playingPic"></img>
@@ -229,14 +318,15 @@
             </div>
             <div class="player__list_item_right player__list_item_right_author">
                 <p>1:30</p>
-                <button class="player__list_item_add_button">
-                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
-                        <use href="/CSS/sprite.svg#player__list_item_add"></use>
-                    </svg>
-                </button>
+                                <button class="player__list_item_add_button profile__list_item_add_button--mobile">
+                                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
+                                        <use class="player__list_item_delete_svg hidden" href="/CSS/sprite.svg#player__list_item_delete"></use>
+                                        <use class="player__list_item_add_svg" href="/CSS/sprite.svg#player__list_item_add"></use>
+                                    </svg>
+                                </button>
             </div>
         </div>
-                              <div id="player__list_item_author" class="player__list_item">
+                              <div id="player__list_item_author" class="player__list_item player__list_item_author">
             <div class="player__list_item_left player__list_item_left_author">
                 <div class="player__list_item_image">
                     <img src="/static/trackPic.png" alt="playingPic"></img>
@@ -248,11 +338,12 @@
             </div>
             <div class="player__list_item_right player__list_item_right_author">
                 <p>1:30</p>
-                <button class="player__list_item_add_button">
-                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
-                        <use href="/CSS/sprite.svg#player__list_item_add"></use>
-                    </svg>
-                </button>
+                                <button class="player__list_item_add_button profile__list_item_add_button--mobile">
+                                    <svg viewBox="0 0 42 42" width="42" height="42" fill="none">
+                                        <use class="player__list_item_delete_svg hidden" href="/CSS/sprite.svg#player__list_item_delete"></use>
+                                        <use class="player__list_item_add_svg" href="/CSS/sprite.svg#player__list_item_add"></use>
+                                    </svg>
+                                </button>
             </div>
         </div>
 </div>

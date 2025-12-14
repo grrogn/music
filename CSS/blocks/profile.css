@@ -36,6 +36,7 @@ right: -100%;
 
 .profile__content_container_photo--mobile {
 zoom: 0.6;
+-moz-transform: 0.6;
 margin-top: 120px;
 margin-bottom: -20px;
 }
@@ -72,6 +73,6 @@ display: none;
 display: none;
 }
 
-.profile__list_item_add_button--mobile:hover {
+.profile__list_item_add_button--mobile.noHover {
     filter: none;
 }

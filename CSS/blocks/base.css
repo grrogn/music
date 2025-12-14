@@ -162,7 +162,19 @@ a {
 
 
 @media (min-width: 500px) {
-.header--mobile, body .home__content--mobile, .navbar--mobile, body .profile__content--mobile, body .categories__content--mobile,body .player__content--mobile .player__content_right_main_player--mobile {display: none;}
+.header--mobile, 
+body .home__content--mobile, 
+.navbar--mobile, 
+body .profile__content--mobile, 
+body .categories__content--mobile,
+body .player__content--mobile .player__content_right_main_player--mobile, 
+body .search__content--mobile,
+.curtain_header--mobile,
+.overlay,
+.curtain_footer_auth--mobile,
+.curtain_footer_reg--mobile
+{display: none !important;}
+
 }
 
 
@@ -170,7 +182,16 @@ a {
 
 
 @media (max-width: 499px) {
-body .container_header, body .intro, .container .categories, .player, .footer {display: none;}
+body .container_header, 
+body .intro, 
+.container .categories, 
+.player, .footer, 
+body .reg_window, 
+body .author_tracks_desktop,
+body .author_albums_desktop,
+body .profile_content_desktop
+  {display: none;}
+
   .container {
     width: calc(100% - 40px);
     margin: auto;

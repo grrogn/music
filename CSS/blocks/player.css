@@ -918,10 +918,15 @@ height: 90px;
 }
 
 .modal_player.hidden{
-right: -100%;
+right: -150%;
 }
 
-
+@media (max-width: 950px) {
+  .modal_player {
+    zoom: 0.6;
+    -moz-transform: scale(0.6)
+  }
+}
 
 .modal_player__content_top.wrapped {
   opacity: 0;

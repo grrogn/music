@@ -51,7 +51,7 @@ overlay.addEventListener("click", () => {
 })
 })
 })
-
+search__content.style.display = "none";
 
 navbar_categories_button.addEventListener("click", () => {
     categories__content.classList.remove('hidden');

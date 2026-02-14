@@ -37,53 +37,36 @@
             </nav>
         </header>
     </div>
-
-<section class="container reg_window">
-<div class="reg_window__gradient"></div>
-<div class="reg_window__frame">
-     <h1>Регистрация</h1>
-    <div class="reg_window__frame_inputs">
-    <input class="reg_window__frame_input" type="text" placeholder="логин">
-<input class="reg_window__frame_input" type="password" placeholder="пароль">
-<input class="reg_window__frame_input" type="password" placeholder="повторите пароль">
-  <div class="reg_window__frame_input_checkbox">
-<div id="reg_window_frame_input_checkbox_container" class="reg_window__frame_input_checkbox_container">
-    <input name="reg_window__frame_input_checkbox" id="reg_window_frame_input_checkbox" type="checkbox">
-    <svg  width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<foreignObject x="0" y="0" width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(0px);clip-path:url(#bgblur_0_167_887_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="0">
-<rect width="36" height="36" rx="10" fill="white" fill-opacity="0.1"/>
-<rect x="0.5" y="0.5" width="35" height="35" rx="9.5" stroke="white" stroke-opacity="0.23"/>
-</g>
-<defs>
-<clipPath id="bgblur_0_167_887_clip_path" transform="translate(0 0)"><rect width="36" height="36" rx="10"/>
-</clipPath></defs>
-</svg>
-    <div id="reg_window_frame_input_checkbox_gradient" class="reg_window_frame_input_checkbox_gradient"></div>
-</div>
     
-
-    <label for="reg_window__frame_input_checkbox">Согласен с Пользовательским соглашением</label>
-  </div>
-
-
-</div>
-        <button id="window_frame_apply_button" class="reg_window__frame_apply_button">
+<form id="regForm" method="post"></form>
+<section class="container reg_window">
+    <div class="reg_window__gradient"></div>
+    <div class="reg_window__frame">
+        <h1>Регистрация</h1>
+        <div class="reg_window__frame_inputs">
+            <input form="regForm" class="reg_window__frame_input" type="text" placeholder="логин">
+            <input form="regForm" class="reg_window__frame_input" type="password" placeholder="пароль">
+            <input form="regForm" class="reg_window__frame_input" type="password" placeholder="повторите пароль">
+            <div class="reg_window__frame_input_checkbox">
+                <div id="reg_window_frame_input_checkbox_container" class="reg_window__frame_input_checkbox_container">
+                    <input form="regForm" name="reg_window__frame_input_checkbox" id="reg_window_frame_input_checkbox" type="checkbox">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use href="/CSS/sprite.svg#checkboxe"></use>
+                    </svg>
+                    <div id="reg_window_frame_input_checkbox_gradient" class="reg_window_frame_input_checkbox_gradient">
+                    </div>
+                </div>
+                <label for="reg_window__frame_input_checkbox">Согласен с Пользовательским соглашением</label>
+            </div>
+        </div>
+        <button type="submit" id="window_frame_apply_button" class="reg_window__frame_apply_button">
             <span>Подтвердить</span>
-
             <svg width="268" height="70" viewBox="0 0 268 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-<foreignObject x="-20.4" y="-20.4" width="308.8" height="110.8"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(10.2px);clip-path:url(#bgblur_0_591_261_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="20.4">
-<rect width="268" height="70" rx="16" fill="white" fill-opacity="0.35"/>
-<rect x="0.5" y="0.5" width="267" height="69" rx="15.5" stroke="white" stroke-opacity="0.46"/>
-</g>
-<defs>
-<clipPath id="bgblur_0_591_261_clip_path" transform="translate(20.4 20.4)"><rect width="268" height="70" rx="16"/>
-</clipPath></defs>
-</svg>
-
-
-<div id="window_frame_apply_button_gradient" class="reg_window__frame_apply_button_gradient"></div>
+                <use href="/CSS/sprite.svg#apply_buttz"></use>
+            </svg>
+            <div id="window_frame_apply_button_gradient" class="reg_window__frame_apply_button_gradient"></div>
         </button>
-</div>
+    </div>
 </section>
 
 
@@ -1099,10 +1082,10 @@
 
 
 
-<script src="player.js"></script>
-<script src="mobile.js"></script>
-<script src="reg_auth.js"></script>
-<script src="search.js"></script>
+<script src="/js/player.js"></script>
+<script src="/js/mobile.js"></script>
+<script src="/js/reg_auth.js"></script>
+<script src="/js/search.js"></script>
 </body>
 
 </html>

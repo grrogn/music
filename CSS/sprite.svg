@@ -394,10 +394,24 @@
 </symbol>
 
 
+<symbol id="apply_buttz">
+<foreignObject x="-20.4" y="-20.4" width="308.8" height="110.8"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(10.2px);clip-path:url(#bgblur_0_591_261_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="20.4">
+<rect width="268" height="70" rx="16" fill="white" fill-opacity="0.35"/>
+<rect x="0.5" y="0.5" width="267" height="69" rx="15.5" stroke="white" stroke-opacity="0.46"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_591_261_clip_path" transform="translate(20.4 20.4)"><rect width="268" height="70" rx="16"/>
+</clipPath></defs>
+</symbol>
 
-
-
-
-
+<symbol id="checkboxe">
+<foreignObject x="0" y="0" width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(0px);clip-path:url(#bgblur_0_167_887_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="0">
+<rect width="36" height="36" rx="10" fill="white" fill-opacity="0.1"/>
+<rect x="0.5" y="0.5" width="35" height="35" rx="9.5" stroke="white" stroke-opacity="0.23"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_167_887_clip_path" transform="translate(0 0)"><rect width="36" height="36" rx="10"/>
+</clipPath></defs>
+</symbol>
 
 </svg>

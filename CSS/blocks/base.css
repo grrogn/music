@@ -145,6 +145,36 @@ a {
 
 
 
+.about_block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 16px;
+    text-align: left;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b1b1b1;
+    min-width: 0;
+    cursor: default;
+    color: rgba(255, 255, 255, 0.808);
+    font-family: var(--base-shrift);
+}
+
+.cle h2{
+font-family: var(--base-shrift);
+}
+
+
+
+
+
 
 
 

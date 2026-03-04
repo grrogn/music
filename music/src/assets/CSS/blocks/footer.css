@@ -1,0 +1,286 @@
+.footer {
+   height: 280px;
+}
+
+.footer__links{
+    display: flex;
+    height: 150px;
+    margin-left: 120px;
+    margin-top: 79px;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: var(--base-shrift);
+    font-size: 24px;
+    cursor: pointer;
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.footer__line {
+    height: 2px;
+    background-color: white;
+}
+
+@media (max-width: 829px) {
+.footer__links{margin-left: 20px;}
+}
+
+.bottom_navbar__item_button--mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    width: 38px;
+    gap: 3px;
+    color: #838384;
+    
+}
+
+
+.bottom_navbar__item_button--mobile svg{
+    width: 38px;
+    flex-shrink: 0; 
+    fill: #838384;
+}
+
+.bottom_navbar__item_button--mobile.active svg{
+    fill: #D0D0D0;
+   
+}
+
+.bottom_navbar__item_button--mobile.active { 
+    fill: #D0D0D0;
+    color: #D0D0D0;
+}
+
+
+
+
+
+
+.bottom_navbar--mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #434344;
+    height: 79px;
+    font-family: var(--base-shrift);
+    font-size: 10px;
+    text-wrap: nowrap;
+    z-index: 200;
+}
+
+.curtain_footer_auth--mobile {
+    bottom: -461px;
+    /* bottom: 0; */
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 10px; */
+    padding: 20px;
+    height: 461px;
+    width: 100%;
+    background-color: var(--main-color);
+    /* background-color: rebeccapurple; */
+    border-radius: 31px 31px 0 0;
+    z-index: 9999;
+    transition: .6s;
+    transition-timing-function: ease-out;
+}
+
+.curtain_footer_auth--mobile h1{
+    position: relative;
+    font-family: var(--base-shrift);
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+
+.curtain_footer_auth_inputs--mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    width: 100%;
+    margin-bottom: 28px;
+    margin-top: 26px;
+    
+}
+
+.curtain_footer_auth_input--mobile{
+    height: 45px;
+    background-color: #434344;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #6E6E6F;
+    z-index: 1;
+    font-family: var(--base-shrift);
+    padding-left: 10px;
+    outline: none;
+width: 100%;
+color: white;
+}
+
+.curtain_footer_auth_input--mobile::placeholder{
+text-align: left;
+font-size: 24px;
+color: #838384;
+}
+
+.curtain_footer_auth_apply_button--mobile {
+border: none;
+background-color: #747474;
+width: 219px;
+height: 57px;
+border-style: solid;
+border-width: 1px;
+border-color: #B8B8B8;
+border-radius: 16px;
+font-family: var(--base-shrift);
+color: white;
+}
+
+#curtain__drug_line_auth {
+    top: 7px;
+}
+
+
+
+
+
+
+/* ===================================================================================================== */
+
+
+.curtain_footer_reg--mobile {
+    bottom: -461px;
+    /* bottom: 0; */
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 10px; */
+    padding: 20px;
+    height: 461px;
+    width: 100%;
+    background-color: var(--main-color);
+    /* background-color: rebeccapurple; */
+    border-radius: 31px 31px 0 0;
+    z-index: 9999;
+    transition: .6s;
+    transition-timing-function: ease-out;
+}
+
+.curtain_footer_reg--mobile h1{
+    position: relative;
+    font-family: var(--base-shrift);
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+
+.curtain_footer_reg_inputs--mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    width: 100%;
+    margin-bottom: 28px;
+    margin-top: 26px;
+}
+
+.curtain_footer_reg_input--mobile{
+    height: 45px;
+    background-color: #434344;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #6E6E6F;
+    z-index: 1;
+    font-family: var(--base-shrift);
+    padding-left: 10px;
+    outline: none;
+width: 100%;
+color: white;
+}
+
+.curtain_footer_reg_input--mobile::placeholder{
+text-align: left;
+font-size: 24px;
+color: #838384;
+}
+
+.curtain_footer_reg_apply_button--mobile {
+border: none;
+background-color: #747474;
+width: 219px;
+height: 57px;
+border-style: solid;
+border-width: 1px;
+border-color: #B8B8B8;
+border-radius: 16px;
+font-family: var(--base-shrift);
+color: white;
+}
+
+#curtain__drug_line_reg {
+    top: 7px;
+}
+
+.curtain_footer_reg_input_checkbox--mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: #838384;
+    font-family: var(--base-shrift);
+    font-size: 12px;
+}
+
+.curtain_footer_reg_input_checkbox--mobile input[type="checkbox"]{
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #6E6E6F;
+    border-radius: 7px;
+    background: #434344;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+/* .curtain_footer_reg_input_checkbox--mobile input[type="checkbox"]::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #4CAF50;
+    transition: transform 0.2s;
+} */
+
+.curtain_footer_reg_input_checkbox--mobile input[type="checkbox"]:checked {
+    
+    background: #b8b8b9;
+    /* border-color: #000000; */
+    /* filter: blur(5px); */
+}
+
+.curtain_footer_reg_input_checkbox--mobile input[type="checkbox"]:checked::after {
+    transform: translate(-50%, -50%) scale(1);
+}

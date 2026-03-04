@@ -1,0 +1,78 @@
+.profile_main {
+    flex-direction: column;
+}
+
+.profile_main > :nth-child(2) {
+    color: white;
+font-size: 36px;
+align-self: center;
+padding-top: -20px;
+}
+
+.profile_main > :nth-child(3) {
+   margin-top: -20px;
+padding-bottom: 83px;
+}
+
+.profile__content--mobile {
+  display: block;
+  position: fixed;
+  top: 50px;
+  right: 50%;
+  transform: translate(50%, 0%);
+  transition: right 1s ease;
+  overflow-y: scroll;
+  height: 100%;
+  padding-bottom: 200px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    font-family: var(--base-shrift);
+    z-index: -10;
+}
+
+.profile__content--mobile.hidden {
+right: -100%;
+}
+
+.profile__content_container_photo--mobile {
+zoom: 0.6;
+-moz-transform: 0.6;
+margin-top: 120px;
+margin-bottom: -20px;
+}
+
+.profile__content_list--mobile {
+height: 100%;
+zoom: 0.7;
+-moz-transform: 0.7;
+overflow-x: hidden;
+overflow-y: visible;
+gap: 15px;
+
+}
+.profile__content_list--mobile p{
+font-size: 15px;
+}
+
+.profile__content_list_item_left--mobile {
+min-width: 0;
+gap: 10px;
+}
+
+.profile__content_list_item_right--mobile {
+justify-content: right;
+gap: 10px;
+}
+
+
+.player__list_item_delete_svg.hidden {
+display: none;
+}
+
+.player__list_item_add_svg.hidden {
+display: none;
+}
+
+.profile__list_item_add_button--mobile.noHover {
+    filter: none;
+}
